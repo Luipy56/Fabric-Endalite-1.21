@@ -2,15 +2,14 @@ package net.luipy.endalite;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.luipy.endalite.block.ModBlocks;
+import net.luipy.endalite.item.ModItemGroups;
+import net.luipy.endalite.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class Endalite implements ModInitializer {
 	public static final String MOD_ID = "endalite";
-
-	// This logger is used to write text to the console and the log file.
-	// It is considered best practice to use your mod id as the logger's name.
-	// That way, it's clear which mod wrote info, warnings, and errors.
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
 	@Override
@@ -19,6 +18,12 @@ public class Endalite implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
-		LOGGER.info("Hello Fabric world!");
+		LOGGER.info("TEST!");
+		//Registrar los Items creados
+		ModItems.registerModItems();
+		//Registrar Blockes
+		ModBlocks.registerModBlocks();
+		//Creative Slot
+		ModItemGroups.register();
 	}
 }
