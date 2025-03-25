@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 600,
+  "experience": 3.0,
+  "group": "endalite",
+  "ingredient": {
+    "item": "endalite:endalite_cluster"
+  },
+  "result": {
+    "id": "endalite:endalite_chunk"
+  }
+}

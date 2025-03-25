@@ -21,12 +21,14 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         //Anadir Blockes a JSON
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.ENDALITE_BLOCK)
-                .add(ModBlocks.ENDALITE_ORE);
+                .add(ModBlocks.ENDALITE_ORE)
+                .add(ModBlocks.ENDALITE_CLUSTER);
 
 
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)//TODO: HACER NETHERITE
                 .add(ModBlocks.ENDALITE_BLOCK)
-                .add(ModBlocks.ENDALITE_ORE);
+                .add(ModBlocks.ENDALITE_ORE)
+                .add(ModBlocks.ENDALITE_CLUSTER);
 
     }
 

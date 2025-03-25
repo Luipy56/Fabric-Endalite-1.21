@@ -13,16 +13,21 @@ public class ModModelProvider extends FabricModelProvider {
         super(output);
     }
 
+    //BLOCKS CUBE ALL
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ENDALITE_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ENDALITE_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ENDALITE_CLUSTER);
 
     }
 
+    //ITEMS
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.ENDALITE, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_ENDALITE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ENDALITE_CHUNK, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ENDALITE_NUGGET, Models.GENERATED);
     }
 }

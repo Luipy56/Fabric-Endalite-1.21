@@ -1,9 +1,12 @@
 {
-  "item.luipysmod.endalite": "Endalite",
-  "item.luipysmod.raw_endalite": "Raw Endalite",
+  "item.endalite.endalite": "Endalite",
+  "item.endalite.raw_endalite": "Raw Endalite",
+  "item.endalite.endalite_chunk": "Endalite Chunk",
+  "item.endalite.endalite_nugget": "Endalite Nugget",
 
-  "block.luipysmod.endalite_ore": "Endalite Ore",
-  "block.luipysmod.endalite_block": "Endalite Block",
+  "block.endalite.endalite_ore": "Endalite Ore",
+  "block.endalite.endalite_block": "Endalite Block",
+  "block.endalite.endalite_cluster": "Endalite Cluster",
 
-  "itemgroup.luipysmod.luipysmoditems": "Luipy's Mod Tab"
+  "itemgroup.endalite.endaliteitems": "Endalite Tab"
 }

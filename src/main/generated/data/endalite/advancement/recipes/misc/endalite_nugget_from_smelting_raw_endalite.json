@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_endalite": {
+      "conditions": {
+        "items": [
+          {
+            "items": "endalite:raw_endalite"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:endalite_nugget_from_smelting_raw_endalite"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_raw_endalite"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:endalite_nugget_from_smelting_raw_endalite"
+    ]
+  }
+}

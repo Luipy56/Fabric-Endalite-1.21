@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_endalite": {
+      "conditions": {
+        "items": [
+          {
+            "items": "endalite:endalite"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:endalite_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_endalite"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:endalite_block"
+    ]
+  }
+}

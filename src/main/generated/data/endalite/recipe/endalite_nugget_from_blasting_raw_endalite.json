@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 300,
+  "experience": 3.0,
+  "group": "endalite",
+  "ingredient": {
+    "item": "endalite:raw_endalite"
+  },
+  "result": {
+    "id": "endalite:endalite_nugget"
+  }
+}

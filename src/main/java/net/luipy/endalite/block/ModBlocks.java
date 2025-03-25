@@ -18,12 +18,16 @@ public class ModBlocks {
 
     public static final Block ENDALITE_ORE = registerBlock("endalite_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(3, 6),
-                AbstractBlock.Settings.create()
-                .strength(5f).requiresTool().sounds(BlockSoundGroup.ANCIENT_DEBRIS)));
+            AbstractBlock.Settings.create()
+            .strength(5f).requiresTool().sounds(BlockSoundGroup.ANCIENT_DEBRIS)));
 
-    public static final Block ENDALITE_BLOCK = registerBlock("endalite_block", new Block(AbstractBlock.Settings.create()
+    public static final Block ENDALITE_BLOCK = registerBlock("endalite_block",
+            new Block(AbstractBlock.Settings.create()
             .strength(5f).requiresTool().sounds(BlockSoundGroup.NETHERITE)));
 
+    public static final Block ENDALITE_CLUSTER = registerBlock("endalite_cluster",
+            new Block(AbstractBlock.Settings.create()
+            .strength(6f).requiresTool().sounds(BlockSoundGroup.ANCIENT_DEBRIS)));
 
 
 
@@ -41,8 +45,6 @@ public class ModBlocks {
         Registry.register(Registries.ITEM, Identifier.of(Endalite.MOD_ID, name),
             new BlockItem(block, new Item.Settings()));
     }
-
-
 
 
     //Llamar al registro de Blockes

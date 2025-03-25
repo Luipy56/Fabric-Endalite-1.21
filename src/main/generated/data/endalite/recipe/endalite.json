@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "endalite:endalite_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "endalite:endalite"
+  }
+}

@@ -17,7 +17,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
     @Override
     public void generate() {
         addDrop(ModBlocks.ENDALITE_BLOCK);
+        addDrop(ModBlocks.ENDALITE_CLUSTER);
 
-        addDrop(ModBlocks.ENDALITE_ORE, oreDrops(ModBlocks.ENDALITE_ORE, ModItems.RAW_ENDALITE));
+        addDrop(ModBlocks.ENDALITE_ORE, oreDrops(ModBlocks.ENDALITE_ORE, ModItems.ENDALITE_NUGGET));
     }
 }
