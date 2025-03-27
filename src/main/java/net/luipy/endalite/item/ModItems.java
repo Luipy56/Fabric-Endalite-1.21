@@ -16,6 +16,7 @@ public class ModItems {
     public static final Item RAW_ENDALITE = registerItems("raw_endalite", new Item(new Item.Settings()));
     public static final Item ENDALITE_CHUNK = registerItems("endalite_chunk", new Item(new Item.Settings()));
     public static final Item ENDALITE_NUGGET = registerItems("endalite_nugget", new Item(new Item.Settings()));
+    public static final Item TAMARA = registerItems("tamara_item", new Item(new Item.Settings()));
 
     //Funcion Para Registrar Items con SubFuncion
     private static Item registerItems(String name, Item item){
@@ -43,7 +44,9 @@ public class ModItems {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
             entries.add(ENDALITE_NUGGET);
         });
-
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
+            entries.add(TAMARA);
+        });
 
     }
 

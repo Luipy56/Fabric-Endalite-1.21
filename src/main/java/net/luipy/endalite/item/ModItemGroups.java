@@ -21,6 +21,7 @@ public class ModItemGroups {
                         entries.add(net.luipy.endalite.item.ModItems.RAW_ENDALITE);
                         entries.add(net.luipy.endalite.item.ModItems.ENDALITE_CHUNK);
                         entries.add(net.luipy.endalite.item.ModItems.ENDALITE_NUGGET);
+                        entries.add(net.luipy.endalite.item.ModItems.TAMARA);
                         entries.add(ModBlocks.ENDALITE_BLOCK);
                         entries.add(ModBlocks.ENDALITE_ORE);
                         entries.add(ModBlocks.ENDALITE_CLUSTER);

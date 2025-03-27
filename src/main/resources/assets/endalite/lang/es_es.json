@@ -1,0 +1,13 @@
+{
+  "item.endalite.endalite": "Lingote de Endalita",
+  "item.endalite.raw_endalite": "Endalita en bruto",
+  "item.endalite.endalite_chunk": "Chapa de Endalita",
+  "item.endalite.endalite_nugget": "Pepita de Endalita",
+
+  "block.endalite.endalite_ore": "Mena de Endalita",
+  "block.endalite.endalite_block": "Bloque de Endalita",
+  "block.endalite.endalite_cluster": "Cluster de Endalita",
+  "item.endalite.tamara_item": "Tamara",
+
+  "itemgroup.endalite.endaliteitems": "Pestaña de Endalita"
+}

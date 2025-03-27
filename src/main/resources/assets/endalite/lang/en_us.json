@@ -1,12 +1,13 @@
 {
-  "item.endalite.endalite": "Endalite",
+  "item.endalite.endalite": "Endalite Ingot",
   "item.endalite.raw_endalite": "Raw Endalite",
-  "item.endalite.endalite_chunk": "Endalite Chunk",
+  "item.endalite.endalite_chunk": "Endalite Sheet",
   "item.endalite.endalite_nugget": "Endalite Nugget",
 
   "block.endalite.endalite_ore": "Endalite Ore",
   "block.endalite.endalite_block": "Endalite Block",
   "block.endalite.endalite_cluster": "Endalite Cluster",
+  "item.endalite.tamara_item": "Te quiero Tamara",
 
   "itemgroup.endalite.endaliteitems": "Endalite Tab"
 }

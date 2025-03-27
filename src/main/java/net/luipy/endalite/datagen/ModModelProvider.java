@@ -28,6 +28,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.ENDALITE, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_ENDALITE, Models.GENERATED);
         itemModelGenerator.register(ModItems.ENDALITE_CHUNK, Models.GENERATED);
+        itemModelGenerator.register(ModItems.TAMARA, Models.GENERATED);
         itemModelGenerator.register(ModItems.ENDALITE_NUGGET, Models.GENERATED);
     }
 }

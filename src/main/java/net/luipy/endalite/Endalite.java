@@ -25,5 +25,7 @@ public class Endalite implements ModInitializer {
 		ModBlocks.registerModBlocks();
 		//Creative Slot
 		ModItemGroups.register();
+		LOGGER.info("TEST2!");
+		LOGGER.info("TEST3!");
 	}
 }
